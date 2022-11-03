@@ -1,0 +1,73 @@
+.specialities {
+    margin-bottom: 0;
+    
+    &__benefit-list {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 30px;
+        list-style: none;
+        flex-direction: column;
+
+        @media screen and(min-width:768px) {
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+    }
+
+    &__benefit-item {
+    //     flex-basis: calc((100% - 90px) / 4);
+   
+        flex-basis: 100%;
+
+        @media screen and(min-width:768px) {
+                flex-basis: calc((100% - 30px) / 2);
+            }
+        
+            @media screen and(min-width:1200px) {
+                flex-basis: calc((100% - 90px) / 4);
+            }
+    }
+    
+
+    &__benefit-thumb {        
+        height: 120px;
+        background-color: $anotherBgdColor;
+        display:flex;
+        align-items:center;
+        justify-content: center;
+        margin-bottom: 30px;
+        border-radius: 4px;
+    }
+
+    &__benefit-icon {
+        width: 70px;
+        height: 70px;      
+        
+    }
+
+    &__subtitle {
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 10px;
+        font-size: 14px;    
+        line-height: 1.14;
+        text-transform: uppercase;
+
+        @media  screen and (min-width:768px) {
+            text-align: left;
+        }
+    
+     }
+
+
+    &__benefit-text {
+        margin: 0;   
+        line-height: 1.71; 
+        color: $anotherTextColor;
+        }
+}
+
+
+
