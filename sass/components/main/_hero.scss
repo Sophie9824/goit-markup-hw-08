@@ -27,7 +27,7 @@
 
             @media  screen and (min-width:768px) {
                 background-image: linear-gradient(rgba(47, 48, 58, 0.4),
-                        rgba(47, 48, 58, 0.4)),url("../../../images/tablet/hero/Header_img.jpg");
+                        rgba(47, 48, 58, 0.4)),url("../images/tablet/hero/Header_img.jpg");
                         @media screen and (min-device-pixel-ratio: 2),
                         screen and (min-resolution: 192dpi),
                             screen and (min-resolution: 2dppx) 
@@ -41,7 +41,7 @@
             {   padding-top: 200px;
                 padding-bottom: 200px;
                 background-image: linear-gradient(rgba(47, 48, 58, 0.4),
-                        rgba(47, 48, 58, 0.4)),url("../../../images/desctop/hero/Img.jpg");
+                        rgba(47, 48, 58, 0.4)),url("../images/desctop/hero/Img.jpg");
                         @media screen and (min-device-pixel-ratio: 2),
                         screen and (min-resolution: 192dpi),
                             screen and (min-resolution: 2dppx) 
@@ -57,7 +57,7 @@
         }  
 
         &__decisions {
-            width: 360px;
+            
             font-weight: 900;
             font-size: 26px;
             line-height: calc(42 / 26);
