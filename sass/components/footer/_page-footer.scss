@@ -114,6 +114,13 @@
         font-weight: 700;        
         text-transform: uppercase;
         color: $background;
+        text-align: center;
+
+        @media screen and(min-width:1200px) {
+            text-align: left ;
+        }
+
+       
      
 
     }

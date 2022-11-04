@@ -9,6 +9,13 @@
         list-style-type: none;
         gap: 8px;
 
+        @media screen and (max-width:767px) {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: flex-start;
+         
+        }
+
     }
 
     &__filter-button {
@@ -41,6 +48,8 @@
         flex-wrap: wrap;
         gap: 30px;
         list-style: none;
+
+        
      }
 
      &__card {

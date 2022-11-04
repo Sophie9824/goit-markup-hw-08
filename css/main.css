@@ -403,7 +403,7 @@ img {
 }
 @media screen and (min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
   .hero {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../../../../images/mobile/Header_img@2x.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/mobile/Header_img@2x.jpg");
   }
 }
 @media screen and (min-width: 768px) {
@@ -413,7 +413,7 @@ img {
 }
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../../images/tablet/hero/Header_t.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/tablet/hero/Header_t.jpg");
   }
 }
 @media screen and (min-width: 1200px) {
@@ -443,6 +443,11 @@ img {
   margin-left: auto;
   margin-right: auto;
   text-transform: uppercase;
+}
+@media screen and (min-width: 768px) {
+  .hero__decisions {
+    width: 360px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .hero__decisions {
@@ -841,6 +846,12 @@ img {
   font-weight: 700;
   text-transform: uppercase;
   color: #FFFFFF;
+  text-align: center;
+}
+@media screen and (min-width: 1200px) {
+  .mailing-list__title {
+    text-align: left;
+  }
 }
 .mailing-list__form {
   display: flex;
@@ -1098,9 +1109,13 @@ img {
     font-size: 12px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .agreement__text {
+    font-size: 14px;
+  }
+}
 .agreement__terms {
   font-weight: 400;
-  font-size: 12px;
   line-height: 24px;
   color: #2196F3;
   margin-left: 3px;
@@ -1116,7 +1131,7 @@ img {
   }
 }
 @media screen and (min-width: 1200px) {
-  .agreement {
+  .agreement__terms {
     font-size: 14px;
   }
 }
@@ -1298,6 +1313,13 @@ img {
   padding: 0;
   list-style-type: none;
   gap: 8px;
+}
+@media screen and (max-width: 767px) {
+  .portfolio__filter-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
 }
 .portfolio__filter-button {
   font-family: inherit;
